@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    
+}
+
+button{
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    border-radius: 30%;
+    background-color:wheat;
+    font-size: large;
+    font-family: fantasy;
+}
+
+h1{
+    background-color: teal;
+    font-family: fantasy;
+}
+
+table{
+    border-radius: 10%;
+    margin: auto;
+}
+
+button:hover{
+    background-color: lightcoral;
+}
+
+.success{
+    background-color: lightgreen;
+}
+
+.level{
+    font-size: large;
+    font-family: fantasy;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 140px;
+    border-radius: 30%;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.timer{
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+    font-family: fantasy;
+    margin-top: 10px;
+    
+}
+
+.backround{
+    background-image: url("backround.jpeg");
+}
+
+.newGame{
+    margin-top: 30px;
+    width: 100px;
+    background-color: lightgreen;
+}

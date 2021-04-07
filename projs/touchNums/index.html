@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TouchNums</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="init()">
+    <div class="backround">
+        <h1>Welcome! Choose your Level</h1>
+        <div>
+            <button class="level" onclick="easy()">Easy</button>
+            <button class="level" onclick="medium()">Medium</button>
+            <button class="level" onclick="hard()">Hard</button>
+        </div>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <button class="newGame" onclick="init()">New Game</button>
+        <div class="timer">time</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

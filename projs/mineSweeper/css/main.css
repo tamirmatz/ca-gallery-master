@@ -1,0 +1,136 @@
+.backround{
+    background-color: lightsalmon;
+    border: solid black;
+}
+table{
+    margin: auto;
+}
+body{
+    text-align: center;
+}
+.headline{
+    font-family: fantasy;
+    background-color: rgb(113, 181, 249);
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.lives{
+    background-color: lightsalmon;
+    font-family: fantasy;
+}
+.smile{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 40%;
+    background-color: wheat;
+}
+.smile:hover{
+    background-color: mediumaquamarine;
+}
+
+hr{
+    border-color: black;
+}
+
+.cell {
+    background-color: rgb(113, 181, 249);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: solid black;
+    transition: 0.5s;
+}
+
+.closed{
+    opacity: 100%;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center
+}
+
+.closed span{
+    visibility: hidden;
+}
+
+.marked{
+    background-color: red;
+    transition: 0.5s;
+} 
+
+.level{
+    margin-bottom: 20px;
+}
+
+.level button{
+    width: 120px;
+    height: 40px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: larger;
+    border: solid black;
+}
+
+.level button:hover{
+    background-color: wheat;
+}
+
+.timer{
+    font-family: fantasy;
+    font-size: x-large;
+}
+
+img{
+    width: 80px;
+    height: auto;
+}
+
+.scoreBoard{
+    font-size: larger;
+    font-family: fantasy;
+    background-color: lightpink;
+    margin: 20px;
+    border-radius: 20px;
+    border: solid black;
+}
+
+.safeclicked{
+    background-color: yellow;
+    transition: 2s;
+}
+
+.safeClick{
+    font-family: fantasy;
+    background-color: turquoise;
+    border: solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.safeClick:hover{
+    background-color: wheat;
+}
+
+.hint1{
+    cursor: pointer;
+}
+
+.hint2{
+    cursor: pointer;
+}
+
+.hint3{
+    cursor: pointer;
+}
+
+h4{
+    font-family: fantasy;
+}
