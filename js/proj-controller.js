@@ -44,4 +44,3 @@ function renderModalContent(projId, idx) {
 `
     document.querySelector('.modal-body').innerHTML = str;
 }
-renderModalContent(projId, idx)

@@ -1,5 +1,5 @@
 'use strict'
-gPojects = [
+var gPojects = [
     {
         id: "pacman",
         name: "Pacman",
