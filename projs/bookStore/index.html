@@ -6,41 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body onload="onInit()">
-    <h1>Welcome To My Book Store</h1>
-    <input class="name-input" placeholder="Enter Name" type="text">
-    <input class="price-input" placeholder="Enter Price" type="number">
+    <h1 data-trans="title">Welcome To My Book Store</h1>
+    <select onchange="onSetLang(this.value)">
+        <option value="en">English</option>
+        <option value="he">עברית</option>
+    </select>
     <br>
-    <button class="add" onclick="onAddBook()">AddBook</button>
+    <input class="name-input" data-trans="add-book-placeholder-name" placeholder="Enter Name" type="text">
+    <input class="price-input" data-trans="add-book-placeholder-price" placeholder="Enter Price" type="number">
+    <br>
+    <button class="add" data-trans="add-book" onclick="onAddBook()">AddBook</button>
     <br>
     <select name="todoSort" onchange="onSetSort(this.value)">
-        <option value="name">Name</option>
-        <option value="price">Price</option>
+        <option data-trans="filter-name" value="name">Name</option>
+        <option data-trans="filter-price" value="price">Price</option>
     </select>
-    <table style="width:100%">
+    
+    <table class="table table-striped table-dark" style="width:100%">
         <thead>
             <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Price</th> 
-                <th>Actions</th>
+                <th data-trans="id">Id</th>
+                <th data-trans="name">Name</th>
+                <th data-trans="price">Price</th> 
+                <th data-trans="actions">Actions</th>
             </tr>
         </thead>
         <tbody class="book-list">
         </tbody>
     </table>
-    <div class="modal" hidden>
+    <div class="modal-book" hidden>
         <h2></h2>
         <h3></h3>
         <p></p>
         <div class="img-container"></div>
         <div class="rate-container"> </div>
-        <button onclick="onCloseModal()">Close</button>
+        <button data-trans="close" onclick="onCloseModal()">Close</button>
     </div>
     <button onclick="onNextPage()">Next Page</button>
+    <script src="js/i18n-service.js"></script>
     <script src="js/storage-service.js"></script>
     <script src="js/book-service.js"></script>
     <script src="js/book-controller.js"></script>

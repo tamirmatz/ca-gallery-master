@@ -1,10 +1,12 @@
 body{
     text-align: center;
-    background-color: lightsalmon;
+    background-color: rgb(52, 52, 52);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
+    color: aliceblue;
+    margin-top: 20px;
     font-family: fantasy;
 }
 
@@ -22,16 +24,15 @@ img{
     border: solid black;
 }
 
-.modal{
+.modal-book{
     margin-top: 10px;
-    background-color: lightblue;
-    border: solid black;
+    background-color: rgba(173, 216, 230, 0.591);
+    border: solid rgba(0, 0, 0, 0.338);
     margin-bottom: 10px;
 }
 
 button{
     cursor: pointer;
-    background-color: lig;
     border-radius: 50%;
 }
 
@@ -49,4 +50,7 @@ input{
     width: 100px;
     border: solid black;
     background-color: lightblue;
+}
+select{
+    margin: 15px;
 }
