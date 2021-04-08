@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    background-color: black;
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -72,7 +73,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: #0091ff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -87,7 +88,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: #0091ff;
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -192,7 +193,7 @@ body {
 }
 header.masthead {
     text-align: center;
-    color: rgb(0, 238, 255);
+    color: rgb(242, 255, 0);
     background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
