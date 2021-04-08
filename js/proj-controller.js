@@ -1,3 +1,4 @@
+'use strict'
 function renderProjs() {
     var projs = getProjs()
     var idx = 0;
